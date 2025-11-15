@@ -219,7 +219,7 @@ export default function Home() {
                 What Our Clients Say
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-                Discover how we've helped businesses transform their digital landscape.
+                Discover how we helped businesses transform their digital landscape.
               </p>
             </div>
             <div className="grid w-full grid-cols-1 lg:grid-cols-3 gap-6 pt-12">
@@ -244,7 +244,7 @@ export default function Home() {
                       </div>
                     </CardHeader>
                     <CardContent className="flex-grow">
-                      <p className="text-muted-foreground italic">"{testimonial.testimonial}"</p>
+                      <p className="text-muted-foreground italic">{testimonial.testimonial}</p>
                     </CardContent>
                   </Card>
                 </motion.div>
